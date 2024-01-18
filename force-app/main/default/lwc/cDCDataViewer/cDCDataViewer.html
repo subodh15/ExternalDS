@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="JSON Data Table" icon-name="standard:account">
+        <div class="slds-m-around_medium">
+            <lightning-datatable
+                key-field="id"
+                data={data}
+                columns={columns}
+                sorted-by={sortedBy}
+                sorted-direction={sortDirection}
+                onsort={handleSortData}
+                onrowaction={handleRowAction}
+                hide-checkbox-column
+                onrowselection={handleRowSelection}
+            ></lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

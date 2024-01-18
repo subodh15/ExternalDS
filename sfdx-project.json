@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "ExternalDS",
+  "namespace": "",
+  "sfdcLoginUrl": "https://sfspractice3-dev-ed.lightning.force.com/",
+  "sourceApiVersion": "59.0"
+}
