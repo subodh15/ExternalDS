@@ -12,7 +12,7 @@ public with sharing class CDC_DataViewer_Controller {
         return jsonDataList;
         
     }
-    
+
     public static List<Map<String, Object>> convertJsonToList(String jsonString) {
         List<Object> jsonDataList = (List<Object>) JSON.deserializeUntyped(jsonString);
         List<Map<String, Object>> resultList = new List<Map<String, Object>>();
@@ -21,6 +21,5 @@ public with sharing class CDC_DataViewer_Controller {
             resultList.add(dataMap);
         }
         return resultList;
-    }
-    
+    }   
 }
